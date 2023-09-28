@@ -13,8 +13,8 @@ body {
   height: 100vh;
   min-width: 200px;
   margin: 0;
-  background-color: #1b2b32;
-  color: rgb(150,255,255);
+  background-color: #333;
+  color: rgb(34, 193, 193);
   font-family: Tahoma;
   font-size: 16px;
   
@@ -125,18 +125,18 @@ section{
 }
 
 .presentation{
-  background-color: #1b2b32;
+  background-color: #333;
   min-height: 200px;
   
 }
 
 .contacts{
-background-color: #1b2b32;
+background-color: #333;
 
 }
 
 .about-me-section{
-  background-color: #1b2b32;
+  background-color: #333;
   min-height: 600px;
 
 }
@@ -144,13 +144,13 @@ background-color: #1b2b32;
 .project{
   position: relative;
   min-height: 600px;
-  background-color: #1b2b32;
+  background-color: #333;
 
 }
 
 .habilities{
 min-height: 600px;
-background-color: #1b2b32;
+background-color: #333;
 
 }
 
@@ -166,6 +166,7 @@ background-color: #1b2b32;
   font-family: "Quando", serif;
   font-size: 1.2em;
   border: none; 
+  cursor: pointer;
  
 }
 

@@ -32,6 +32,8 @@
   <div class="presentation-div">
     <h1>Hi, I am Filippi, front-end developer</h1>
   </div>
+  <div id="root"></div>
+  <script type="module" src="/src/index.js"></script>
 </section>
 
 
@@ -40,13 +42,14 @@
   <div class="contacts-div">
     <div class="button">
       <form action="https://google.com">
-          <input type="submit" value="My LinkedIn" id="button"/>
+          <a href="https://google.com" target="_blank"><button id="button" target="_blank">My Linkedin</button></a>
+          
       </form>
     </div>
 
 
     <div class="button">
-      <form action="https://google.com">
+      <form action="https://google.com" target="_blank">
           <input type="submit" value="My Github" id="button"/>
       </form>
     </div>
