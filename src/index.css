@@ -186,8 +186,22 @@ background-color: #333;
   margin: 10px;
   border: 1px solid;
   border-radius: 3px;
+}
+.project-eg{
+  align-items: center;
+  width: calc(100%/3);
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  height: 350px;
+}
+.hability-eg{
+  align-items: center;
+  width: calc(100%/3);
+  margin: 10px;
+  border: 1px solid;
+  border-radius: 3px;
   height: 150px;
-  
 }
 
 .project-title, .hability-title{
@@ -207,7 +221,7 @@ h2{
 
 
 
-
+/*
 .card-link {
   position: absolute;
   top: 0;
@@ -215,16 +229,18 @@ h2{
   left: 0;
   width: calc(100%/3);
 }
+*/
 
 
 
 
 .card {
   /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
   transition: 0.3s;
   width: calc(100%/3);
 }
+
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
