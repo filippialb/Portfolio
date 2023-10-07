@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+
+.custom-card-bootstrap {
+  background-color: #1b0f0c; /* Example background color */
+  /* You can use any valid CSS color value here */
+}
+
+
+.hover-card {
+  transition: box-shadow 0.3s ease; /* Add a smooth transition effect */
+}
+
+.hover-card:hover {
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5); /* Apply a box shadow on hover */
+}
+
+
+.custom-link {
+    text-decoration: none; /* Remove underline */
+    color: #61dafb; /* Set the desired text color */
+}
